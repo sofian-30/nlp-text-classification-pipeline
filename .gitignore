@@ -1,0 +1,46 @@
+# 📦 Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🗃️ Logs
+*.log
+
+# 📁 MLflow
+mlruns/
+mlflow.db
+
+# 🐋 Docker
+*.tar
+*.pid
+
+# 🧪 Jupyter (au cas où)
+.ipynb_checkpoints/
+
+# 💻 VSCode
+.vscode/
+
+# 🚀 Pytest / coverage
+htmlcov/
+.tox/
+.nox/
+coverage.*
+.cache
+.pytest_cache/
+
+# 📦 Environnements et paquets
+.env
+.env.*
+
+# 🧪 Test datasets ou artefacts
+data/*.csv
+data/*.tsv
+data/*.json
+data/*.parquet
+*.joblib
+*.pkl
+*.h5
+*.zip
+*.gz
